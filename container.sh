@@ -34,24 +34,3 @@ docker build -t ubuntu-anp .
 echo -e "OK: Docker finished building"
 echo -e "try running chmod +x ./start.sh && ./start.sh"
 
-#perhaps in the future we can look into publishing a docker image
-
-#if [ "$1" == "--build" ] || [ "$1" == "-t" ]; then
-    
-#fi
-
-# else
-#     echo -en "${INFO} Downloading docker image (This might take a while): "
-#     set +e
-#     docker pull --quiet ${DOCKER_USER}/anp
-#     if [ $? -eq 0 ]
-#     then
-#         echo -e "OK: Downloaded docker image"
-#     else
-#         echo -e "Failed to download docker image."
-#         echo -e "Check if you are connected to the internet."
-#         echo -e "If you are, try rerunning script like this: '${0} --build'."
-#         exit 1
-#     fi
-#     set -e
-# fi
