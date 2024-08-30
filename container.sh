@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # special thanks to vusec Compiler Construction repository for inspiration!
 # https://bitbucket.org/vusec/vu-coco-public/
 

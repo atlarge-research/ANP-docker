@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 #get the dir the script is located
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
